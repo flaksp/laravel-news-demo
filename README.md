@@ -35,10 +35,8 @@ From left column of documentation.
 
 1. Download this project.
 2. Run `composer install` to install all PHP-depedencies.
-3. Run `npm install` to install all front end depedencies.
-4. Copy `.env.example` and rename it to `.env`. Then configure it. You also need to create keys for [Google ReCaptcha](https://www.google.com/recaptcha).
-5. If you're running Vagrant, setup up Laravel Homestead as described in [docs](https://laravel.com/docs/master/homestead).
-6. Run `npm run production` or `npm run dev` to compile front end assets.
-7. Run `php artisan key:generate` to generate application key.
-8. Run `php artisan migrate` to create tables.
-9. Run `php artisan db:seed` to fill tables with data.
+3. Copy `.env.example` and rename it to `.env`. Then configure it. You also need to create keys for [Google ReCaptcha](https://www.google.com/recaptcha).
+4. If you're running Vagrant, setup up Laravel Homestead as described in [docs](https://laravel.com/docs/master/homestead).
+5. Run `php artisan key:generate` to generate application key.
+6. Run `php artisan migrate` to create tables.
+7. Run `php artisan db:seed` to fill tables with data.
