@@ -1,0 +1,14 @@
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+}
