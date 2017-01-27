@@ -73,7 +73,8 @@
     </main>
 
     <footer>
-        <p>Generated in {{ round(microtime(true) - LARAVEL_START, 3) }} sec<br><a href="https://github.com/terron-kun" target="_blank" rel="noopener">terron-kun</a></p>
+        <div hidden>Generated in {{ round(microtime(true) - LARAVEL_START, 3) }} sec</div>
+        <p><a href="https://github.com/terron-kun" target="_blank" rel="noopener">terron-kun</a></p>
     </footer>
 
     <!-- Scripts
