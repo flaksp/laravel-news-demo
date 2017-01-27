@@ -32,15 +32,15 @@ class SocialButtons
     /**
      * Image URL.
      *
-     * @var string
+     * @var string|null
      */
     protected $image;
 
     public function __construct(
-        ?string $title       = null,
-        ?string $description = null,
-        ?string $url         = null,
-        ?string $image       = null
+        $title       = null,
+        $description = null,
+        $url         = null,
+        $image       = null
     ) {
         $this->title       = $title;
         $this->description = $description;
